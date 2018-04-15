@@ -1,49 +1,27 @@
-/****************************************************************************
-* Title                 :   ${file_base}
-* Filename              :   ${file_base}.h
-* Author                :   Matteo Scordino
-* Origin Date           :   ${date}
-* Version               :   1.0.0
-* Compiler              :   TBD
-* Target                :   TBD
-* Notes                 :   None
-*
-* THIS SOFTWARE IS PROVIDED BY SILEX EMBEDDED LTD "AS IS" AND ANY EXPRESSED
-* OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
-* OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
-* IN NO EVENT SHALL SILEX EMBEDDED LTD OR ITS CONTRIBUTORS BE LIABLE FOR ANY
-* DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-* (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-* SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
-* HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
-* STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
-* IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
-* THE POSSIBILITY OF SUCH DAMAGE.
-*
-*****************************************************************************/
-/*************** INTERFACE CHANGE LIST **************************************
-*
-*    Date		Version   	Author         		Description 
-*    ${date}	1.0.0   	Matteo Scordino   	Interface Created.
-*
-*****************************************************************************/
 /** @file ${file_base}.h
- *  @brief This module contains interface definition for the ${file_base} configuration.
  *  @author Matteo Scordino
+ *  @date ${date}
+ *  @version 1.0.0
+ *  @copyright Copyright (c) 2017 ${copyright_holder}. All Rights Reserved. 
+ *             Neither the whole nor any part of the information contained in, nor the product described in,
+ *             this document may be adapted or reproduced in any material form except with the written permission
+ *             of ${copyright_holder}. Distribution outside of ${copyright_holder} is strictly forbidden.
+ *
+ *  @brief The interface definition for ${file_base}.
  * 
- *  This is the header file for the definition of the interface for retrieving
- *  the digital input/output configuration table.
+ *  This is the header file for @todo ADD_DESCRIPTION HERE
  */
+ 
 #ifndef ${include_guard_symbol}
 #define ${include_guard_symbol}
 
 /******************************************************************************
-* Includes
-*******************************************************************************/
+ * Includes
+ *******************************************************************************/
 
 /******************************************************************************
-* Preprocessor Constants
-*******************************************************************************/
+ * Preprocessor Constants
+ *******************************************************************************/
 /**
  * Defines the number of pins on each processor port.
  */
@@ -55,18 +33,18 @@
 #define NUMBER_OF_PORTS                 8U
 
 /******************************************************************************
-* Configuration Constants
-*******************************************************************************/
+ * Configuration Constants
+ *******************************************************************************/
 
 
 /******************************************************************************
-* Macros
-*******************************************************************************/
+ * Macros
+ *******************************************************************************/
 
 	
 /******************************************************************************
-* Typedefs
-*******************************************************************************/
+ * Typedefs
+ *******************************************************************************/
 /**
  * Defines the possible states for a digital output pin.
  */
@@ -139,13 +117,13 @@ typedef enum
 }DioSlew_t;
 
 /******************************************************************************
-* Variables
-*******************************************************************************/
+ * Variables
+ *******************************************************************************/
 
 
 /******************************************************************************
-* Function Prototypes
-*******************************************************************************/
+ * Function Prototypes
+ *******************************************************************************/
 #ifdef __cplusplus
 extern "C"{
 #endif
