@@ -11,7 +11,7 @@
 * THIS SOFTWARE IS PROVIDED BY SILEX EMBEDDED LTD "AS IS" AND ANY EXPRESSED
 * OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
 * OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
-* IN NO EVENT SHALL BENINGO ENGINEERING OR ITS CONTRIBUTORS BE LIABLE FOR ANY
+* IN NO EVENT SHALL SILEX EMBEDDED LTD OR ITS CONTRIBUTORS BE LIABLE FOR ANY
 * DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
 * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
 * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
@@ -29,6 +29,7 @@
 *****************************************************************************/
 /** @file ${file_base}.h
  *  @brief This module contains interface definition for the ${file_base} configuration.
+ *  @author Matteo Scordino
  * 
  *  This is the header file for the definition of the interface for retrieving
  *  the digital input/output configuration table.
