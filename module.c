@@ -1,4 +1,7 @@
-/** @file ${file_base}.c
+/** @addtogroup ${group_tag} ${group_descriptive_name} 
+ * This module @todo ADD_DESCRIPTION HERE
+ * @{
+ *  @file ${file_base}.c
  *  @author Matteo Scordino
  *  @date ${date}
  *  @version 1.0.0
@@ -9,7 +12,6 @@
  *
  *  @brief The implementation for ${file_base}.
  * 
- *  This is the implementation file for @todo ADD_DESCRIPTION HERE
  */
  
 /******************************************************************************
@@ -49,7 +51,6 @@ static TYPE volatile * const DataIn[NUM_PORTS] =
  * Function Definitions
  *******************************************************************************/
 /******************************************************************************
- * Function : ${file_base}_init()
  *//** 
  * \b Description:
  *
@@ -63,8 +64,7 @@ static TYPE volatile * const DataIn[NUM_PORTS] =
  * POST-CONDITION: The ${file_base} peripheral is setup with the configuration settings.
  *
  * @param  		Config is a pointer to the configuration table that contains
- *				the initialization for the peripheral.
- *
+ *				the initialization for the peripheral. *
  * @return 		void
  *
  * \b Example:
@@ -83,15 +83,6 @@ static TYPE volatile * const DataIn[NUM_PORTS] =
  * @see Dio_RegisterWrite
  * @see Dio_RegisterRead
  * @see Dio_CallbackRegister
- *
- * <br><b> - HISTORY OF CHANGES - </b>
- *  
- * <table align="left" style="width:800px">
- * <tr><td> Date       </td><td> Software Version </td><td> Initials </td><td> Description </td></tr>
- * <tr><td> 09/01/2015 </td><td> 0.5.0            </td><td> JWB      </td><td> Interface Created </td></tr>
- * <tr><td> 11/10/2015 </td><td> 1.0.0            </td><td> JWB      </td><td> Interface Created </td></tr>
- * </table><br><br>
- * <hr>
  *******************************************************************************/
 void Dio_Init(const DioConfig_t * Config)
 {
@@ -100,3 +91,4 @@ void Dio_Init(const DioConfig_t * Config)
 
 
 /*************** END OF FUNCTIONS ***************************************************************************/
+/**  @} */

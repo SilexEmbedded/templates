@@ -1,4 +1,5 @@
-/** @file ${file_base}.h
+/** @addtogroup ${group_tag} 
+ *  @file ${file_base}.h
  *  @author Matteo Scordino
  *  @date ${date}
  *  @version 1.0.0
@@ -8,8 +9,6 @@
  *             of ${copyright_holder}. Distribution outside of ${copyright_holder} is strictly forbidden.
  *
  *  @brief The interface definition for ${file_base}.
- * 
- *  This is the header file for @todo ADD_DESCRIPTION HERE
  */
  
 #ifndef ${include_guard_symbol}
@@ -137,3 +136,4 @@ const DioConfig_t * const Dio_ConfigGet(void);
 #endif /* ${include_guard_symbol} */
 
 /*** End of File **************************************************************/
+/**  @} */
