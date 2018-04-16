@@ -48,7 +48,53 @@ static TYPE volatile * const DataIn[NUM_PORTS] =
  *******************************************************************************/
 
 /******************************************************************************
- * Function Definitions
+ * @name private_function_defs
+ * Private Function Definitions
+ * @{
+ *******************************************************************************/
+/******************************************************************************
+ *//** 
+ * \b Description:
+ *
+ * This function is used to initialize the ${file_base} 
+ *  
+ * PRE-CONDITION: Configuration table needs to populated (sizeof > 0) <br>
+ * PRE-CONDITION: NUMBER_OF_CHANNELS_PER_PORT > 0 <br>
+ * PRE-CONDITION: NUMBER_OF_PORTS > 0 <br>
+ * PRE-CONDITION: The MCU clocks must be configured and enabled.
+ *
+ * POST-CONDITION: The ${file_base} peripheral is setup with the configuration settings.
+ *
+ * @param  		Config is a pointer to the configuration table that contains
+ *				the initialization for the peripheral. *
+ * @return 		void
+ *
+ * \b Example:
+ * @code
+ * 	const DioConfig_t *DioConfig = Dio_ConfigGet();
+ *
+ * 	Dio_Init(DioConfig);
+ * @endcode
+ *
+ * @see Dio_Init
+ * @see Dio_ChannelRead
+ * @see Dio_ChannelWrite
+ * @see Dio_ChannelToggle
+ * @see Dio_ChannelModeSet
+ * @see Dio_ChannelDirectionSet
+ * @see Dio_RegisterWrite
+ * @see Dio_RegisterRead
+ * @see Dio_CallbackRegister
+ *******************************************************************************/
+static void private_func(const DioConfig_t * Config)
+{
+	/* TODO: Define implementation */
+}
+/**  @} */
+/******************************************************************************
+ * @name public_function_defs
+ * Public Function Definitions
+ * @{
  *******************************************************************************/
 /******************************************************************************
  *//** 
@@ -88,6 +134,7 @@ void Dio_Init(const DioConfig_t * Config)
 {
 	/* TODO: Define implementation */
 }
+/**  @} */
 
 
 /*************** END OF FUNCTIONS ***************************************************************************/

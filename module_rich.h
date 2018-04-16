@@ -1,4 +1,5 @@
 /** @addtogroup ${group_tag} 
+ * @{
  *  @file ${file_base}.h
  *  @author Matteo Scordino
  *  @date ${date}
